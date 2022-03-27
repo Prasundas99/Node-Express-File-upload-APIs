@@ -1,0 +1,26 @@
+{
+  "name": "common-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "format": "prettier --write **/*.{js,jsx,ts,tsx}"
+  },
+  "author": "IEMA",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1101.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1",
+    "standard": "^16.0.4"
+  }
+}

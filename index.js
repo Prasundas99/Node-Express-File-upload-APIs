@@ -4,7 +4,7 @@ import cors from "cors";
 
 import HomeRouter from "./routes/home.router.js";
 import { notFound, errorHandler } from "./middlewares/errorMiddleware.js";
-import fileuploadRouter from "./routes/fileUpload.router.js";
+import fileuploadRouter from "./routes/fileUploadRouter.js";
 
 const app = express();
 app.disable("x-powered-by");

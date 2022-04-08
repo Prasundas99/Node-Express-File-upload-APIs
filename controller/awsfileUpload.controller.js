@@ -37,7 +37,7 @@ const uploadFileToAws = multer({
  * @access Public
  * @upload  {file: uploadmedia}
  */
-export const fileUpload = (req, res) => {
+export const awsFileUpload = (req, res) => {
     console.log(process.env.AWS_ACCESS_ID);
 console.log(process.env.AWS_SECRET_KEY);
   uploadFileToAws(req, res, async function (error) {

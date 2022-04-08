@@ -15,7 +15,7 @@ app.use(cors());
 
 // Routes
 app.use("/", HomeRouter);
-app.use("/api", fileuploadRouter)
+app.use("/api/file-upload", fileuploadRouter)
 // custom middleware
 app.use(notFound);
 app.use(errorHandler);

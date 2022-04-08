@@ -7,6 +7,6 @@ const router = express.Router();
 
 router.route('/aws',).post(awsFileUpload)
 router.route('/firebase',).post(firebaseFileUpload)
-router.route('/gcp',).post(fileUpload)
+
 
 export default router
